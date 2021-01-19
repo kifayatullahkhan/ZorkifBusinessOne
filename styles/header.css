@@ -1,0 +1,65 @@
+/* CSS Page header */
+#header {
+	height: 88px;
+	margin: 0px;
+	margin-bottom: 0px;
+	background-color: #363636;
+	display: block;
+	/* [disabled]background-image:url(../images/bg2.jpg); */
+	/* [disabled]background-repeat: repeat; */
+}
+#header_top_nav{
+	width:auto;
+	height:30px;
+	margin-top:0px;
+	float:right;
+	font-size:0.6em;
+}
+
+#header_top_nav ul {
+	display:inline-block;
+	list-style:none;
+	margin:0;
+	margin-top:5px;
+	padding:0;
+
+}
+
+#header_top_nav ul li {
+	width:auto;
+	height:16px;
+	float:left;
+}
+#header_top_nav ul li a{
+	width: auto;
+	height: 16px;
+	margin-right: 5px;
+	/* [disabled]background-color: #000; */
+	padding: 5px;
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#header_top_nav ul li a:hover{
+	width: auto;
+	height: 16px;
+	margin-right: 5px;
+	text-decoration:underline;
+	/* [disabled]background-color: #CCC; */
+}
+#header_top_nav ul li a.active{
+	width: auto;
+	height: 16px;
+	margin-right: 5px;
+	/* [disabled]background-color:#C0C; */
+	
+}
+
+#header_top_logo{
+	width: 191px;
+	height: 80px;
+	margin-top: 5px;
+	margin-left: 5px;	
+	float: left;
+}

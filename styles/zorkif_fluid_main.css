@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* Designed By Zorkif.com Team */
+@import url("messages.css"); /* The main message boxes appearing on the top of the page */
+@import url("header.css"); /* To style the header of the page */
+@import url("tab_bar.css"); /* To style the Tabs Menu and the Title Section of the page */
+@import url("action_buttons.css"); /* To style the action buttons and search box of the page */
+@import url("footer.css"); /* To style the header of the page */
+@import url("zorkif_slider.css"); /* To style the header of the page */
+@import url("login_form.css"); /* To style the header of the page */
+@import url("forms.css"); /* To style the form elements in the  page */
+@import url("tables.css"); /* To style the default tables and data view and data entry tables in page */
+@import url("tiles_cpanel.css"); /* To style the information Tiles tabs for the cpanel */
+@import url("page_columns.css"); /* The file is used to privide column based division of the page design */
+
+html{
+	overflow: -moz-scrollbars-vertical;	
+	width:100%;
+	height:100%;
+	min-height:100%;
+	min-width:100%;	
+}
+body{
+	margin:0px;
+	border:none;
+	font-family:Verdana, Geneva, sans-serif;
+	width:100%;
+
+	height:100%;
+	min-height:100%;
+	margin:0 auto;
+	text-align:left; /* this line is to fix the center aling issue for IE */
+		
+}
+img{
+	margin:0px;
+	border:none;
+}
+
+a{
+	color:#FFF;	
+}
+a:link, a:visited {
+	text-decoration : none;
+}
+a img {
+border : 0;
+}
+/* make every thing round */
+.round_corners {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* clear the Floating and Give some Gap */
+.clear_all{
+	clear:both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;	
+}
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* Control Main Layout of the Page */
+.main_container {
+	width: 100%;
+	margin-left:0;
+	margin-right:0;
+
+}
+
+#header_container{
+	width:100%;
+	height:153px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+}
+#header_container_spacer{
+	height:153px;
+}
+
+.content_container{
+	width:100%;
+	height:100%;
+	position: relative;	
+	overflow:hidden;
+}
+
+
+.first_column {	
+	width:220px;
+	background-color:#F2F2F2;
+	height:100%;
+	padding:5px;
+	float:left;
+	position:absolute;
+	overflow-y: auto;
+}
+.second_column{
+	/* width:87.3%; */   /* The Width is now re-Colculated by jQuery to fill up the remaining space */
+
+	height: 100%;
+	margin-left: 230px;
+	padding: 10px 10px 10px 10px;
+	float: left;
+	overflow:hidden;
+	
+
+}
+.second_column .second_column_content_container{
+	/* [disabled]background-color:#F00; */
+	overflow-x:auto ;
+ 	overflow-y: hidden;
+}
+ 
+
+.tab_content{
+	display:none;
+}
+.glow_it{
+    background-color:#019ad2;
+	background-repeat:repeat-x;
+	background-image:-khtml-gradient(linear,left top,left bottom,from(#33bcef),to(#019ad2));
+	background-image:-moz-linear-gradient(#33bcef,#019ad2);
+	background-image:-ms-linear-gradient(#33bcef,#019ad2);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#33bcef),color-stop(100%,#019ad2));
+	background-image:-webkit-linear-gradient(#33bcef,#019ad2);
+	background-image:-o-linear-gradient(#33bcef,#019ad2);
+	background-image:linear-gradient(#33bcef,#019ad2);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bcef',endColorstr='#019ad2',GradientType=0);
+	border-color:#057ed0;	
+	color:#FFF;	
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,.5);
+	-moz-box-shadow:0 1px 0 rgba(255,255,255,.5);
+	box-shadow:0 1px 0 rgba(255,255,255,.5);	
+}

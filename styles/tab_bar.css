@@ -1,0 +1,89 @@
+/* CSS Document */
+#tab_bar{
+	height: 30px;
+	margin: 0px;
+	background-color: #666;
+	display: block;
+	text-transform:uppercase;
+}
+#tab_bar ul {
+	display:inline-block;
+	list-style:none;
+	margin:0;	
+	padding:0;
+
+}
+
+#tab_bar ul li {
+	width: auto;
+	height: 22px;
+	float: left;
+	
+}
+#tab_bar ul li a{
+	width: auto;
+	height: 24px;
+	margin-right: 5px;
+	color: #FFF;
+	background-color: #32bce1;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	
+}
+#tab_bar ul li a:hover{
+	width: auto;
+	height: 24px;
+	margin-right: 5px;
+	background-color: #CCC;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#tab_bar ul li a.active{
+	width: auto;
+	height: 29px;
+	margin-right: 5px;
+	color:#333;
+	background-color: #f1f1f1;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position:relative;
+	top:-10px;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+}
+
+
+.tab_bar_spacer{
+ width:15px;
+ float:left;
+}
+
+#current_page_title{
+	width:auto;
+	height:25px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	float:right;
+	color:#FFF;	
+}
